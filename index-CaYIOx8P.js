@@ -25786,108 +25786,50 @@ const JR = {
     , Me = t3(tA, p3)
     , Ti = [{
         id: 1,
-        name: "Bác Nguyễn Phú Trọng",
-        title: "Tổng Bí thư",
-        category: "Chính trị",
-        description: "Người cộng sản kiên trung, tấm gương sáng ngời về đạo đức cách mạng",
-        image: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nguyen_Phu_Trong_HN2023.jpg",
+        name: "Karl Marx",
+        title: "Nhà tư tưởng – Đồng tác giả Tuyên ngôn",
+        category: "Lý luận",
+        description: "Người đặt nền tảng cho chủ nghĩa Marx với phê phán kinh tế chính trị học tư bản",
+        image: "https://www.epochtimesviet.com/wp-content/uploads/2024/05/karl-marx_communist-manifesto.jpg",
         detailedStory: `
-Tổng Bí thư Nguyễn Phú Trọng (1944–2024) là nhà lãnh đạo lỗi lạc, trọn đời vì nước, vì dân. Ông là biểu tượng của sự kiên định, trí tuệ và bản lĩnh, người đã nâng tầm uy tín của Việt Nam trên trường quốc tế qua trường phái "Ngoại giao cây tre".
+Karl Marx (1818–1883) cùng Friedrich Engels xây dựng học thuyết về chủ nghĩa duy vật lịch sử và duy vật biện chứng, phân tích phương thức sản xuất tư bản chủ nghĩa và chỉ ra quy luật vận động của xã hội.
 
-Đặc biệt, ông là tấm gương mẫu mực về tu dưỡng đạo đức cách mạng "Cần, kiệm, liêm, chính, chí công vô tư". Sự nghiệp "đốt lò" phòng chống tham nhũng của ông đã củng cố vững chắc niềm tin của nhân dân vào Đảng. Lối sống giản dị, liêm khiết của ông mãi là bài học lớn cho các thế hệ sau.
+Tác phẩm quan trọng: "Tuyên ngôn của Đảng Cộng sản" (1848), "Tư bản" (Das Kapital). Tư tưởng của Marx là cơ sở lý luận của phong trào cộng sản và cách mạng xã hội chủ nghĩa.
 `,
-        qualities: ["Cần Kiệm Liêm Chính", "Kiên trung", "Tận tụy vì dân"]
+        qualities: ["Duy vật biện chứng", "Phê phán tư bản", "Giải phóng giai cấp"]
     }, {
         id: 2,
-        name: "Bác Võ Nguyên Giáp",
-        title: "Đại tướng - Tổng Tư lệnh",
-        category: "Quân sự",
-        description: "Anh Văn của nhân dân, thiên tài quân sự lừng danh thế giới",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltRq9lL1oZRcJ0DlNrnWuvDZpZytrdjgqeg&s",
+        name: "Friedrich Engels",
+        title: "Nhà lý luận – Đồng sáng lập",
+        category: "Lý luận",
+        description: "Người hệ thống hóa và phát triển chủ nghĩa Marx",
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg",
         detailedStory: `
-Đại tướng Võ Nguyên Giáp (1911–2013) là người học trò xuất sắc của Chủ tịch Hồ Chí Minh, người Anh Cả của Quân đội Nhân dân Việt Nam.
-
-Với chiến thắng Điện Biên Phủ "lừng lẫy năm châu, chấn động địa cầu", ông được thế giới tôn vinh là một trong những danh tướng vĩ đại nhất lịch sử. Không chỉ tài ba trong quân sự, Đại tướng còn được kính trọng tuyệt đối bởi đức độ, sự khiêm cung và lòng yêu thương sâu sắc dành cho chiến sĩ, đồng bào.
+Friedrich Engels (1820–1895) là đồng chí thân thiết của Marx, đồng tác giả Tuyên ngôn và người biên tập, xuất bản các tập sau của "Tư bản". Ông phát triển các vấn đề triết học, khoa học tự nhiên và quân sự trong khuôn khổ chủ nghĩa Marx.
 `,
-        qualities: ["Trí - Dũng - Nhân", "Yêu nước thương dân", "Thiên tài quân sự"]
+        qualities: ["Hệ thống hóa lý luận", "Tinh thần quốc tế", "Khoa học cách mạng"]
     }, {
         id: 3,
-        name: "Võ Thị Sáu",
-        title: "Anh hùng Lực lượng vũ trang",
-        category: "Quân sự",
-        description: "Nữ chiến sĩ Đất Đỏ kiên cường, bất khuất trước họng súng quân thù",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzl8H49skdsYpbymHN4GDzdDRwIvTSW6Cmw&s",
+        name: "V.I. Lenin",
+        title: "Lãnh tụ Cách mạng Tháng Mười",
+        category: "Cách mạng",
+        description: "Người vận dụng và phát triển chủ nghĩa Marx trong thời kỳ đế quốc chủ nghĩa",
+        image: "https://cinereverso.org/wp-content/uploads/2020/04/V.I.-Lenin.jpg",
         detailedStory: `
-Chị Võ Thị Sáu (1933–1952) tham gia cách mạng từ năm 14 tuổi. Dù tuổi đời còn rất trẻ, chị đã khiến thực dân Pháp khiếp sợ bởi sự dũng cảm và mưu trí.
-
-Hy sinh hiên ngang tại Côn Đảo khi mới 19 tuổi, chị đã để lại huyền thoại bất tử về người con gái Đất Đỏ. Hình ảnh chị cài hoa lên mái tóc trước khi ra pháp trường đã trở thành biểu tượng đẹp đẽ nhất của chủ nghĩa anh hùng cách mạng Việt Nam.
+Vladimir Ilyich Lenin (1870–1924) lãnh đạo Cách mạng Tháng Mười Nga (1917), xây dựng nhà nước Xô viết, phát triển lý luận về đảng kiểu mới, nhà nước chuyên chính vô sản và thời đại đế quốc chủ nghĩa.
 `,
-        qualities: ["Kiên cường", "Lý tưởng cao đẹp", "Hy sinh vì độc lập"]
+        qualities: ["Vận dụng sáng tạo", "Đảng kiểu mới", "Chuyên chính vô sản"]
     }, {
         id: 4,
-        name: "GS. Ngô Bảo Châu",
-        title: "Nhà Toán học",
-        category: "Khoa học",
-        description: "Người Việt Nam đầu tiên giành giải thưởng Fields danh giá",
-        image: "https://viasm.edu.vn/viasm/Kooboo-Resource/ResizeImage?url=%2FCms_Data%2FContents%2Fviasm%2FMedia%2Fnhanvien%2Fngobaochau2.jpg&width=624&height=840&preserverAspectRatio=True&quality=95",
+        name: "Hồ Chí Minh",
+        title: "Lãnh tụ cách mạng Việt Nam",
+        category: "Vận dụng ở Việt Nam",
+        description: "Người kết hợp sáng tạo chủ nghĩa Marx–Lenin với thực tiễn Việt Nam",
+        image: "https://donduong.lamdong.dcs.vn/Portals/3/media/newsimage/h/o/-/ho-chi-minh.jpg",
         detailedStory: `
-Giáo sư Ngô Bảo Châu (sinh năm 1972) là niềm tự hào của trí tuệ Việt Nam. Năm 2010, ông xuất sắc giành Huy chương Fields - giải thưởng được ví như Nobel của Toán học, đưa Việt Nam trở thành quốc gia thứ 2 tại Châu Á đạt được vinh dự này.
-
-Thành công của ông là minh chứng cho thấy người Việt Nam hoàn toàn có thể chinh phục những đỉnh cao tri thức nhân loại nếu có đam mê và sự kiên trì.
+Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa Marx–Lenin vào cách mạng giải phóng dân tộc, sáng lập Đảng Cộng sản Việt Nam (1930), lãnh đạo Cách mạng Tháng Tám (1945) và khai sinh nước Việt Nam Dân chủ Cộng hòa.
 `,
-        qualities: ["Trí tuệ", "Sáng tạo", "Làm rạng danh Tổ quốc"]
-    }, {
-        id: 5,
-        name: "Nguyễn Ngọc Ký",
-        title: "Nhà giáo Ưu tú",
-        category: "Giáo dục",
-        description: "Huyền thoại về nghị lực phi thường, viết đời mình bằng đôi chân",
-        image: "https://image.congan.com.vn/thumbnail/CATP-474-2022-9-28/nguyen-ngoc-ky_1.jpg",
-        detailedStory: `
-Thầy Nguyễn Ngọc Ký (1947–2022) bị liệt hai tay từ năm 4 tuổi. Không đầu hàng số phận, cậu bé Ký đã tập viết bằng chân, vượt qua bao đau đớn để đến trường.
-
-Ông trở thành người thầy giáo đầu tiên dạy học bằng chân, là tấm gương sáng ngời về tinh thần "Tàn nhưng không phế". Cuộc đời ông đã truyền cảm hứng mạnh mẽ cho nhiều thế hệ học sinh Việt Nam về ý chí vươn lên nghịch cảnh.
-`,
-        qualities: ["Nghị lực phi thường", "Hiếu học", "Lạc quan"]
-    }, {
-        id: 6,
-        name: "Nguyễn Văn Tuấn",
-        title: "Thiếu úy Biên phòng",
-        category: "Quân sự",
-        description: "Lá chắn thép nơi biên cương, hy sinh hạnh phúc riêng vì bình yên đất nước",
-        image: "https://bcp.cdnchinhphu.vn/334894974524682240/2022/6/22/nguyenanhtuan-1655877893330856043203.jpg",
-        detailedStory: `
-Trong cuộc chiến chống đại dịch COVID-19, Thiếu úy Nguyễn Văn Tuấn là đại diện cho hàng ngàn chiến sĩ biên phòng đã "ăn lán, ngủ rừng" suốt nhiều tháng ròng để giữ chặt biên giới.
-
-Anh đã gác lại việc riêng, thậm chí không thể về chịu tang cha để hoàn thành nhiệm vụ. Sự hy sinh thầm lặng của anh và đồng đội là minh chứng rõ nét cho phẩm chất "Bộ đội Cụ Hồ" trong thời bình: Vì nhân dân quên mình.
-`,
-        qualities: ["Trách nhiệm", "Hy sinh thầm lặng", "Kỷ luật thép"]
-    }, {
-        id: 7,
-        name: "Đặng Văn Cương",
-        title: "Hiệu trưởng trường Mường Lống",
-        category: "Giáo dục",
-        description: "Người cha của những đứa trẻ vùng cao, cõng chữ lên non",
-        image: "https://storage.baoquangngai.vn/data/dataimages/202011/original/resize_images2326862_thay_cuong.jpg",
-        detailedStory: `
-Thầy Đặng Văn Cương đã dành cả tuổi thanh xuân để bám bản tại xã Mường Lống (Kỳ Sơn, Nghệ An). Không chỉ dạy chữ, thầy còn đi xin từng bữa ăn, cái áo ấm và nhận nuôi những học sinh mồ côi, cơ nhỡ.
-
-Tình yêu thương của thầy đã giúp hàng trăm đứa trẻ người Mông không phải bỏ học. Thầy là hiện thân của lòng nhân ái và sự cống hiến không mệt mỏi cho sự nghiệp trồng người nơi gian khó.
-`,
-        qualities: ["Nhân ái", "Tận tụy", "Cống hiến"]
-    }, {
-        id: 8,
-        name: "Nguyễn Thị Ánh Tuyết",
-        title: "Thủ khoa Đại học Y",
-        category: "Khoa học",
-        description: "Bông hoa xương rồng trên cát, vượt nghịch cảnh để chạm ước mơ",
-        image: "https://cdn.eva.vn/upload/4-2024/images/phuocnt/nu-thu-khoa-nganh-hot-anh-au-bai-38-1734341877-658-width660height550.jpg",
-        detailedStory: `
-Mồ côi cha mẹ, sống nương nhờ bà ngoại trong căn nhà dột nát, nhưng Nguyễn Thị Ánh Tuyết chưa bao giờ từ bỏ giấc mơ blouse trắng. Vừa đi học, vừa đi làm thêm vất vả, em vẫn xuất sắc trở thành Thủ khoa.
-
-Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Hoàn cảnh không quyết định số phận, chính ý chí và sự nỗ lực không ngừng nghỉ mới là thước đo giá trị con người.
-`,
-        qualities: ["Tự lập", "Hiếu học", "Kiên cường"]
+        qualities: ["Độc lập dân tộc", "Gắn với dân", "Đạo đức cách mạng"]
     }]
     , nA = ({ person: e, onClose: t, onPrev: n, onNext: r }) => (m.useEffect(() => {
         const s = i => {
@@ -26047,16 +25989,16 @@ Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Ho
             }
             ;
         return c.jsxs("div", {
-            className: "min-h-screen bg-slate-50 font-sans selection:bg-red-100 selection:text-red-900",
+            className: "min-h-screen bg-slate-50 font-sans selection:bg-blue-100 selection:text-blue-900",
             style: {
                 fontFamily: "'Be Vietnam Pro', sans-serif"
             },
             children: [c.jsxs("div", {
                 className: "fixed inset-0 pointer-events-none overflow-hidden",
                 children: [c.jsx("div", {
-                    className: "absolute top-0 right-0 w-[500px] h-[500px] bg-red-500/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"
+                    className: "absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"
                 }), c.jsx("div", {
-                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-yellow-500/5 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"
+                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"
                 })]
             }), c.jsx("main", {
                 className: "pt-28 pb-20 relative z-10",
@@ -26065,29 +26007,36 @@ Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Ho
                     children: [c.jsxs("div", {
                         className: "text-center mb-16 space-y-6 animate-fade-in-up",
                         children: [c.jsx("div", {
-                            className: "inline-flex items-center justify-center p-3 bg-red-50 rounded-full mb-4",
+                            className: "inline-flex items-center justify-center p-3 bg-blue-50 rounded-full mb-4",
                             children: c.jsx($l, {
-                                className: "w-6 h-6 text-red-500 opacity-50"
+                                className: "w-6 h-6 text-blue-500 opacity-50"
                             })
                         }), c.jsxs("h1", {
                             className: "text-4xl md:text-7xl font-black text-slate-900 tracking-tight leading-tight",
-                            children: ["Gương Sáng", " ", c.jsx("span", {
-                                className: "text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500",
-                                children: "Việt Nam"
+                            children: ["Triển lãm ", c.jsx("span", {
+                                className: "text-transparent",
+                                style: {
+                                    backgroundImage: "linear-gradient(90deg, #2563eb, #06b6d4)",
+                                    WebkitBackgroundClip: "text",
+                                    backgroundClip: "text",
+                                    WebkitTextFillColor: "transparent",
+                                    display: "inline-block"
+                                },
+                                children: "Chủ nghĩa Marx–Lenin"
                             })]
                         }), c.jsx("p", {
                             className: "text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed",
-                            children: "Những con người bình dị nhưng phi thường. Những câu chuyện thắp lửa niềm tin và khát vọng cống hiến cho Tổ quốc."
+                            children: "Hình tượng, tư liệu và tư tưởng cốt lõi của chủ nghĩa Marx–Lenin cùng vận dụng sáng tạo ở Việt Nam."
                         }), c.jsxs("div", {
                             className: "flex flex-col md:flex-row gap-4 justify-center items-center mt-8",
                             children: [c.jsxs("div", {
                                 className: "relative w-full md:w-80 group",
                                 children: [c.jsx(Tk, {
-                                    className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-red-500 transition-colors"
+                                    className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors"
                                 }), c.jsx("input", {
                                     type: "text",
                                     placeholder: "Tìm kiếm nhân vật...",
-                                    className: "w-full pl-10 pr-4 py-3 rounded-2xl border border-slate-200 bg-white/80 backdrop-blur focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500 transition-all shadow-sm",
+                                    className: "w-full pl-10 pr-4 py-3 rounded-2xl border border-slate-200 bg-white/80 backdrop-blur focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all shadow-sm",
                                     value: s,
                                     onChange: h => i(h.target.value)
                                 })]
@@ -26128,7 +26077,7 @@ Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Ho
                                 onClick: () => a(h),
                                 className: "group cursor-pointer",
                                 children: c.jsx("div", {
-                                    className: "relative h-full bg-white rounded-[2rem] p-3 shadow-sm border border-slate-100 hover:shadow-2xl hover:shadow-red-500/10 hover:-translate-y-2 transition-all duration-500 overflow-hidden",
+                                    className: "relative h-full bg-white rounded-[2rem] p-3 shadow-sm border border-slate-100 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 transition-all duration-500 overflow-hidden",
                                     children: c.jsxs("div", {
                                         className: "relative aspect-[3/4] rounded-[1.5rem] overflow-hidden bg-slate-100",
                                         children: [c.jsx("img", {
@@ -26141,7 +26090,7 @@ Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Ho
                                         }), c.jsxs("div", {
                                             className: "absolute bottom-0 left-0 right-0 p-6 translate-y-2 group-hover:translate-y-0 transition-transform duration-500",
                                             children: [c.jsxs("span", {
-                                                className: "inline-block px-3 py-1 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider rounded-full mb-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
+                                                className: "inline-block px-3 py-1 bg-blue-600 text-white text-[10px] font-bold uppercase tracking-wider rounded-full mb-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
                                                 children: [h.category || "Tiêu biểu", " "]
                                             }), c.jsx("h3", {
                                                 className: "text-xl md:text-2xl font-bold text-white leading-tight mb-1 drop-shadow-md",
@@ -26168,7 +26117,7 @@ Câu chuyện của Tuyết là minh chứng sống động cho tư tưởng: Ho
                                     r("Tất cả")
                             }
                             ,
-                            className: "mt-4 text-red-600 font-bold hover:underline",
+                            className: "mt-4 text-blue-600 font-bold hover:underline",
                             children: "Xóa bộ lọc"
                         })]
                     }), c.jsx(Zs, {
@@ -28205,7 +28154,7 @@ const EA = () => {
                 "Lực lượng sản xuất phát triển vượt bậc (đại công nghiệp, cơ khí hóa, xã hội hóa cao).",
                 "Mâu thuẫn ngày càng sâu sắc giữa lực lượng sản xuất mang tính xã hội hóa và quan hệ sản xuất TBCN dựa trên chiếm hữu tư nhân tư bản chủ nghĩa."
             ],
-            image: "https://bcp.cdnchinhphu.vn/zoom/600_315/334894974524682240/2024/2/20/kttt-1708420500569224559784-0-35-373-632-crop-17084206745111720348527.jpg"
+            image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGEhS2Hnddh5VzFEKI5Y1kLX_YV5_0XJCFQsxeWSL0iY686I7dDmLZyXGIPB75ItPmV4ikT49DGSrqpGfxLq-McenqJMGElQHu_4WUrfjDcutEFIcVjbvbYAuHPJBXkoHl8nbD25tYD9s/s1600/27.jpg"
         }, {
             title: "Điều kiện chính trị – xã hội",
             content: [
@@ -28213,13 +28162,13 @@ const EA = () => {
                 "Biểu hiện xã hội: xung đột giữa giai cấp công nhân hiện đại và giai cấp tư sản lỗi thời dẫn tới khủng hoảng và tất yếu sụp đổ của TBCN.",
                 "Sự trưởng thành của giai cấp công nhân và sự ra đời của Đảng Cộng sản – đội tiên phong lãnh đạo đấu tranh – là tiền đề trực tiếp cho hình thái KT–XH CSCN."
             ],
-            image: "https://dangcongsan.vn/upload/2006988/fck/phuongdt/doan-ket-4725.png"
+            image: "https://thanhnien.mediacdn.vn/Uploaded/vankhoa/2021_11_07/13-4025.jpeg"
         }, {
             title: "Kết luận",
             content: [
                 "Sự ra đời của CNXH là tất yếu khách quan: bắt nguồn từ phát triển của lực lượng sản xuất, mâu thuẫn giai cấp gay gắt và vai trò lãnh đạo của Đảng Cộng sản."
             ],
-            image: "https://cdn.nhandan.vn/images/1ef398c4e2fb4bf07980a2ded785b3efdfc41bc764369360f987d1611d9ac36af866bc6a7d63a0dd20e1034652aae96763a899dc0d598a8828a44264337440e8/vlc-9427.jpg"
+            image: "https://thanhnien.mediacdn.vn/Uploaded/vankhoa/2021_11_07/10-6492.jpeg"
         }]
     }, {
         id: 3,
@@ -28231,7 +28180,7 @@ const EA = () => {
                 "CNXH là xã hội giải phóng giai cấp, giải phóng dân tộc, giải phóng xã hội, giải phóng con người, tạo điều kiện để con người phát triển toàn diện.",
                 "CNXH là chế độ xã hội do nhân dân lao động làm chủ."
             ],
-            image: "https://cdnphoto.dantri.com.vn/dan-sinh-1744792073.jpg"
+            image: "https://hilaw.vn/wp-content/uploads/2024/06/tinh-tat-yeu-khach-quan-va-su-ra-doi-cua-nha-nuoc-xhcn.jpg"
         }, {
             title: "Đặc trưng về kinh tế",
             content: [
@@ -28240,7 +28189,7 @@ const EA = () => {
                 "CNXH thực hiện nguyên tắc phân phối: làm theo năng lực, hưởng theo nhu cầu (ở giai đoạn cao).",
                 "Trong giai đoạn đầu, theo V.I. Lênin, việc xóa bỏ hoàn toàn chế độ tư hữu ngay lập tức là không thể, cần xây dựng nền kinh tế mới từng bước."
             ],
-            image: "https://bcp.cdnchinhphu.vn/zoom/600_315/334894974524682240/2024/2/20/kttt-1708420500569.jpg"
+            image: "https://static.mattran.org.vn/zoom/648/uploaded/admin/2018_06_09/newfolder%206/image001_plgn.jpg"
         }, {
             title: "Đặc trưng về chính trị – xã hội",
             content: [
@@ -28250,7 +28199,7 @@ const EA = () => {
                 "Giai cấp công nhân lãnh đạo nhân dân lao động thông qua Đảng Cộng sản.",
                 "Mục tiêu cao nhất đạt được là xóa bỏ sự phân chia giai cấp, biến tất cả thành viên trong xã hội thành người lao động, tiêu diệt cơ sở của mọi tình trạng bóc lột."
             ],
-            image: "https://dangcongsan.vn/upload/2006988/fck/phuongdt/doan-ket-4725.png"
+            image: "http://vpdf.org.vn/upload/2001187/20250811/grab16a5dLenin.jpg"
         }, {
             title: "Đặc trưng về văn hóa – tư tưởng và quan hệ dân tộc",
             content: [
@@ -28258,7 +28207,7 @@ const EA = () => {
                 "CNXH đảm bảo bình đẳng, đoàn kết giữa các dân tộc và có quan hệ hữu nghị, hợp tác với nhân dân các nước trên thế giới.",
                 "Nguyên tắc giải quyết vấn đề dân tộc: xóa bỏ tình trạng bóc lột người thì tình trạng bóc lột dân tộc khác cũng sẽ bị xóa bỏ."
             ],
-            image: "https://cdn.nhandan.vn/images/culture-hoa-binh-1744792073.jpg"
+            image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQCnGAnVILtgbSxwZoqJ16HGLknIHJZCq1qFW0ljpze-mlmuZOyBLBB88BHtlxH"
         }]
     }]
     , DA = () => {
