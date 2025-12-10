@@ -19090,7 +19090,7 @@ const lE = () => {
 }
 );
 Gr.displayName = "Button";
-const zm = "/assets/ho-chi-minh-sReGNZEF.png"
+const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-1755922991407-175592299220393783138.jpeg"
   , dE = () => {
     const e = y1()
       , t = [{
