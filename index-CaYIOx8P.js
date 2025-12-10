@@ -18851,7 +18851,7 @@ const lE = () => {
     return c.jsxs("footer", {
         className: "relative mt-auto w-full",
         children: [c.jsx("div", {
-            className: "absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-cyan-900 clip-path-slant"
+            className: "absolute inset-0 bg-gradient-to-r from-amber-900 via-amber-800 to-amber-700 clip-path-slant"
         }), c.jsx("div", {
             className: "absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"
         }), c.jsxs("div", {
@@ -18982,7 +18982,7 @@ const lE = () => {
                             }), c.jsxs("div", {
                                 className: "flex flex-col",
                                 children: [c.jsx("span", {
-                                    className: "font-bold text-lg leading-tight text-gray-900 group-hover:text-blue-600 transition-colors",
+                                    className: "font-bold text-lg leading-tight text-gray-900 group-hover:text-amber-600 transition-colors",
                                     children: "MLN131"
                                 }), c.jsx("span", {
                                     className: "text-[10px] font-semibold text-gray-500 uppercase tracking-widest",
@@ -18996,7 +18996,7 @@ const lE = () => {
                                 return c.jsx(Wc, {
                                     to: o.to,
                                     end: o.to === "/",
-                                    className: ({ isActive: l }) => `flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${l ? "bg-white text-blue-600 shadow-md shadow-cyan-500/10 scale-105" : "text-gray-600 hover:text-gray-900 hover:bg-white/50"}`,
+                                    className: ({ isActive: l }) => `flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${l ? "bg-white text-amber-700 shadow-md shadow-amber-500/10 scale-105" : "text-gray-600 hover:text-gray-900 hover:bg-white/50"}`,
                                     children: ({ isActive: l }) => c.jsxs(c.Fragment, {
                                         children: [c.jsx(a, {
                                             className: `w-4 h-4 ${l ? "fill-current" : ""}`
@@ -19026,7 +19026,7 @@ const lE = () => {
                         const l = o.icon;
                         return c.jsxs(Wc, {
                             to: o.to,
-                            className: ({ isActive: u }) => `flex flex-col items-center justify-center gap-3 p-6 rounded-2xl border transition-all duration-300 ${u ? "bg-sky-50 border-sky-100 text-blue-600 shadow-lg shadow-sky-100" : "bg-white border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-gray-200 hover:shadow-md"}`,
+                            className: ({ isActive: u }) => `flex flex-col items-center justify-center gap-3 p-6 rounded-2xl border transition-all duration-300 ${u ? "bg-amber-50 border-amber-100 text-amber-700 shadow-lg shadow-amber-100" : "bg-white border-gray-100 text-gray-600 hover:bg-gray-50 hover:border-gray-200 hover:shadow-md"}`,
                             style: {
                                 transitionDelay: `${a * 50}ms`
                             },
@@ -19108,7 +19108,7 @@ const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BA
                 variant: "hero"
             }];
         return c.jsxs("div", {
-            className: "min-h-screen bg-[#f6fbff] font-sans",
+            className: "min-h-screen bg-[var(--bg)] font-sans",
             children: [c.jsxs("section", {
                 className: "relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20 pb-32",
                 children: [c.jsx("div", {
@@ -19139,7 +19139,8 @@ const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BA
                             }), c.jsxs("h1", {
                                 className: "text-5xl md:text-7xl font-extrabold tracking-tight text-foreground leading-tight drop-shadow-sm",
                                 children: ["Xây dựng", c.jsx("span", {
-                                    className: "text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600 block mt-2 italic pl-2",
+                                    className: "text-transparent block mt-2 italic pl-2",
+                                    style: { backgroundImage: "linear-gradient(90deg,var(--accent-start),var(--accent-end))", WebkitBackgroundClip: "text", backgroundClip: "text", WebkitTextFillColor: "transparent" },
                                     children: "Chủ Nghĩa Xã Hội"
                                 })]
                             }), c.jsx("p", {
@@ -19304,16 +19305,16 @@ const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BA
                             to: "/video",
                             className: "group relative overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 p-8 flex flex-col justify-between min-h-[280px]",
                             children: [c.jsx("div", {
-                                className: "absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"
+                                className: "absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-amber-100 to-amber-200 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"
                             }), c.jsxs("div", {
                                 className: "relative z-10",
                                 children: [c.jsx("div", {
-                                    className: "w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6",
+                                    className: "w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6",
                                     children: c.jsx(co, {
                                         size: 24
                                     })
                                 }), c.jsx("h3", {
-                                    className: "text-2xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors",
+                                    className: "text-2xl font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors",
                                     children: "Kho Video Tư liệu"
                                 }), c.jsx("p", {
                                     className: "text-gray-600",
@@ -19322,7 +19323,7 @@ const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BA
                             }), c.jsx("div", {
                                 className: "relative z-10 mt-6 flex justify-end",
                                 children: c.jsx("span", {
-                                    className: "w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-blue-600 group-hover:text-white transition-all",
+                                    className: "w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-amber-600 group-hover:text-white transition-all",
                                     children: c.jsx(Qn, {
                                         size: 20
                                     })
@@ -19384,6 +19385,27 @@ const Kc = [{
     duration: "6:03",
     author: "LỚP PHÓ HỌC TẬP Official",
     desc: "CNXH là hệ tư tưởng đề xuất sở hữu công về tư liệu sản xuất, nhằm xóa bỏ bất công và hướng tới Chủ nghĩa Cộng sản."
+}, {
+    id: 3,
+    title: "50 năm kiên trì con đường xây dựng chủ nghĩa xã hội",
+    youtubeId: "w8hR_bBBhl0",
+    duration: "5:03",
+    author: "Báo Nhân Dân",
+    desc: "50 năm kiên trì con đường xây dựng chủ nghĩa xã hội."
+}, {
+    id: 4,
+    title: "Kiên định và sáng tạo để xây dựng thành công chủ nghĩa xã hội",
+    youtubeId: "9x46RqvTjB0",
+    duration: "3:26",
+    author: "Báo Nhân Dân",
+    desc: "Kiên định và sáng tạo để xây dựng thành công chủ nghĩa xã hội."
+}, {
+    id: 5,
+    title: "Chủ nghĩa xã hội ở Việt Nam: Ưu việt hay khác biệt?",
+    youtubeId: "gm6YxGBn-ig",
+    duration: "14:07",
+    author: "Báo Nhân Dân",
+    desc: "Chủ nghĩa xã hội ở Việt Nam: Ưu việt hay khác biệt?"
 }]
     , pE = () => {
         const [e, t] = m.useState(Kc[0]);
@@ -19396,7 +19418,7 @@ const Kc = [{
                     children: [c.jsxs("div", {
                         className: "mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4 border-b pb-6",
                             children: [c.jsxs("div", {
-                                className: "inline-flex items-center gap-2 px-3 py-1 bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 rounded-full text-sm font-medium mb-3",
+                                className: "inline-flex items-center gap-2 px-3 py-1 bg-amber-100 text-amber-800 dark:bg-amber-900/20 dark:text-amber-400 rounded-full text-sm font-medium mb-3",
                                 children: [c.jsx(lr, {
                                     className: "w-4 h-4"
                                 }), c.jsx("span", {
@@ -19472,7 +19494,7 @@ const Kc = [{
                                                 onClick: () => t(n),
                                                                                                 className: `
                                                         group flex gap-3 p-3 rounded-xl cursor-pointer transition-all duration-200 border
-                                                        ${r ? "bg-blue-50 border-blue-200 dark:bg-blue-900/20 dark:border-blue-900/50" : "bg-white border-transparent hover:border-slate-200 hover:bg-slate-50 dark:bg-slate-900 dark:hover:bg-slate-800"}
+                                                        ${r ? "bg-amber-50 border-amber-200 dark:bg-amber-900/20 dark:border-amber-900/50" : "bg-white border-transparent hover:border-slate-200 hover:bg-slate-50 dark:bg-slate-900 dark:hover:bg-slate-800"}
                                                     `,
                                                 children: [c.jsxs("div", {
                                                     className: "relative w-32 shrink-0 aspect-video rounded-lg overflow-hidden bg-slate-200",
@@ -19492,13 +19514,13 @@ const Kc = [{
                                                 }), c.jsxs("div", {
                                                     className: "flex flex-col justify-center flex-1 min-w-0",
                                                     children: [c.jsx("h3", {
-                                                        className: `font-semibold text-sm line-clamp-2 mb-1 ${r ? "text-blue-700 dark:text-blue-400" : "text-slate-800 dark:text-slate-200"}`,
+                                                        className: `font-semibold text-sm line-clamp-2 mb-1 ${r ? "text-amber-800 dark:text-amber-300" : "text-slate-800 dark:text-slate-200"}`,
                                                         children: n.title
                                                     }), c.jsx("p", {
                                                         className: "text-xs text-slate-500 truncate",
                                                         children: n.author
                                                     }), r && c.jsxs("div", {
-                                                        className: "mt-2 flex items-center gap-1 text-xs text-blue-600 font-medium",
+                                                        className: "mt-2 flex items-center gap-1 text-xs text-amber-700 font-medium",
                                                         children: [c.jsx(ck, {
                                                             className: "w-3 h-3"
                                                         }), " Đang phát"]
@@ -19786,7 +19808,7 @@ const ua = 15
                 }), c.jsx("div", {
                     className: "relative w-full h-1 bg-slate-800 mb-8 rounded-full overflow-hidden",
                     children: c.jsx("div", {
-                        className: `absolute top-0 left-0 h-full transition-all duration-1000 ease-linear ${f < 5 ? "bg-red-500" : "bg-blue-500"}`,
+                        className: `absolute top-0 left-0 h-full transition-all duration-1000 ease-linear ${f < 5 ? "bg-red-500" : "bg-amber-500"}`,
                         style: {
                             width: `${f / ua * 100}%`
                         }
@@ -25989,16 +26011,16 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
             }
             ;
         return c.jsxs("div", {
-            className: "min-h-screen bg-slate-50 font-sans selection:bg-blue-100 selection:text-blue-900",
+            className: "min-h-screen bg-[var(--bg)] font-sans selection:bg-amber-100 selection:text-amber-900",
             style: {
                 fontFamily: "'Be Vietnam Pro', sans-serif"
             },
             children: [c.jsxs("div", {
                 className: "fixed inset-0 pointer-events-none overflow-hidden",
                 children: [c.jsx("div", {
-                    className: "absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"
+                    className: "absolute top-0 right-0 w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"
                 }), c.jsx("div", {
-                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-cyan-500/5 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"
+                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-amber-300/10 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"
                 })]
             }), c.jsx("main", {
                 className: "pt-28 pb-20 relative z-10",
@@ -26007,16 +26029,16 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                     children: [c.jsxs("div", {
                         className: "text-center mb-16 space-y-6 animate-fade-in-up",
                         children: [c.jsx("div", {
-                            className: "inline-flex items-center justify-center p-3 bg-blue-50 rounded-full mb-4",
+                            className: "inline-flex items-center justify-center p-3 bg-amber-50 rounded-full mb-4",
                             children: c.jsx($l, {
-                                className: "w-6 h-6 text-blue-500 opacity-50"
+                                className: "w-6 h-6 text-amber-500 opacity-50"
                             })
                         }), c.jsxs("h1", {
                             className: "text-4xl md:text-7xl font-black text-slate-900 tracking-tight leading-tight",
                             children: ["Triển lãm ", c.jsx("span", {
                                 className: "text-transparent",
                                 style: {
-                                    backgroundImage: "linear-gradient(90deg, #2563eb, #06b6d4)",
+                                    backgroundImage: "linear-gradient(90deg, #f59e0b, #fcd34d)",
                                     WebkitBackgroundClip: "text",
                                     backgroundClip: "text",
                                     WebkitTextFillColor: "transparent",
@@ -26032,11 +26054,11 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                             children: [c.jsxs("div", {
                                 className: "relative w-full md:w-80 group",
                                 children: [c.jsx(Tk, {
-                                    className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-blue-500 transition-colors"
+                                    className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-amber-600 transition-colors"
                                 }), c.jsx("input", {
                                     type: "text",
                                     placeholder: "Tìm kiếm nhân vật...",
-                                    className: "w-full pl-10 pr-4 py-3 rounded-2xl border border-slate-200 bg-white/80 backdrop-blur focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all shadow-sm",
+                                    className: "w-full pl-10 pr-4 py-3 rounded-2xl border border-slate-200 bg-white/80 backdrop-blur focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-all shadow-sm",
                                     value: s,
                                     onChange: h => i(h.target.value)
                                 })]
@@ -26077,7 +26099,7 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                                 onClick: () => a(h),
                                 className: "group cursor-pointer",
                                 children: c.jsx("div", {
-                                    className: "relative h-full bg-white rounded-[2rem] p-3 shadow-sm border border-slate-100 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 transition-all duration-500 overflow-hidden",
+                                    className: "relative h-full bg-white rounded-[2rem] p-3 shadow-sm border border-slate-100 hover:shadow-2xl hover:shadow-amber-500/10 hover:-translate-y-2 transition-all duration-500 overflow-hidden",
                                     children: c.jsxs("div", {
                                         className: "relative aspect-[3/4] rounded-[1.5rem] overflow-hidden bg-slate-100",
                                         children: [c.jsx("img", {
@@ -26090,7 +26112,7 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                                         }), c.jsxs("div", {
                                             className: "absolute bottom-0 left-0 right-0 p-6 translate-y-2 group-hover:translate-y-0 transition-transform duration-500",
                                             children: [c.jsxs("span", {
-                                                className: "inline-block px-3 py-1 bg-blue-600 text-white text-[10px] font-bold uppercase tracking-wider rounded-full mb-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
+                                                className: "inline-block px-3 py-1 bg-amber-600 text-white text-[10px] font-bold uppercase tracking-wider rounded-full mb-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
                                                 children: [h.category || "Tiêu biểu", " "]
                                             }), c.jsx("h3", {
                                                 className: "text-xl md:text-2xl font-bold text-white leading-tight mb-1 drop-shadow-md",
@@ -26117,7 +26139,7 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                                     r("Tất cả")
                             }
                             ,
-                            className: "mt-4 text-blue-600 font-bold hover:underline",
+                            className: "mt-4 text-amber-600 font-bold hover:underline",
                             children: "Xóa bộ lọc"
                         })]
                     }), c.jsx(Zs, {
@@ -26896,7 +26918,7 @@ Thành công, thành công, đại thành công.`,
         id: "tu-hoc",
         label: "Tinh thần Tự học",
         icon: "📚",
-        color: "from-blue-500 to-cyan-500"
+        color: "from-amber-500 to-amber-300"
     }, {
         id: "dao-duc",
         label: "Đạo đức & Lối sống",
@@ -27083,7 +27105,7 @@ Tôi sẵn sàng giải đáp và phân tích các giá trị tư tưởng của
                                                                 children: [c.jsxs("h4", {
                                                                     className: "flex items-center gap-2 text-xs font-bold text-slate-900 uppercase mb-2",
                                                                     children: [c.jsx(lr, {
-                                                                        className: "w-4 h-4 text-blue-500"
+                                                                        className: "w-4 h-4 text-amber-600"
                                                                     }), " ", "Phân tích ý nghĩa"]
                                                                 }), c.jsx("p", {
                                                                     className: "text-slate-600 text-sm md:text-[15px] leading-relaxed",
@@ -27483,7 +27505,7 @@ function PA() {
                                         className: `
                                                 absolute inset-0 w-full h-full flex flex-col items-center justify-center
                                                 transition-all duration-300 z-10 border border-slate-700/30
-                                                ${n === I ? "bg-blue-600 z-20 shadow-inner" : ""}
+                                                ${n === I ? "bg-amber-600 z-20 shadow-inner" : ""}
                                                 ${!n && !B && !M ? "bg-slate-800 hover:bg-slate-700" : ""}
                                                 ${B ? "bg-slate-900 cursor-not-allowed" : ""}
                                                 ${M && !B && n !== I ? "bg-red-600 hover:bg-red-500 animate-pulse" : ""}
@@ -27662,7 +27684,7 @@ function PA() {
                                     disabled: s !== null,
                                     className: `
                                             w-full p-4 rounded-xl text-left border-2 font-medium transition-all duration-200 flex items-center justify-between
-                                            ${s === null ? "border-slate-100 bg-slate-50 hover:border-blue-400 hover:bg-white hover:shadow-md hover:scale-[1.02]" : ""}
+                                            ${s === null ? "border-slate-100 bg-slate-50 hover:border-amber-400 hover:bg-white hover:shadow-md hover:scale-[1.02]" : ""}
                                             ${s === "correct" && I === f[n].correct ? "border-green-500 bg-green-100 text-green-800 shadow-md" : ""}
                                             ${s === "wrong" && I === f[n].correct ? "border-green-500 bg-green-100 text-green-800" : ""} 
                                             ${s === "wrong" && I !== f[n].correct ? "opacity-30 grayscale" : ""}
@@ -27762,7 +27784,7 @@ const EA = () => {
         desc: "Bài nghiên cứu chuyên sâu về việc khơi dậy nguồn lực con người trong xây dựng và bảo vệ đất nước.",
         url: "https://tapchicongsan.org.vn/web/guest/hoc-tap-va-lam-theo-tu-tuong-ao-uc-phong-cach-ho-chi-minh1/-/2018/50239/van-dung-tu-tuong-ho-chi-minh-ve-phat-huy-nhan-to-con-nguoi-trong-xay-dung-va-bao-ve-dat-nuoc-hien-nay.aspx",
         icon: od,
-        color: "text-blue-600 bg-blue-50"
+        color: "text-amber-700 bg-amber-50"
     }, {
         title: "Giáo trình Tư tưởng Hồ Chí Minh (Dành cho bậc Đại học)",
         source: "NXB Chính trị Quốc gia Sự thật",
@@ -27789,20 +27811,20 @@ const EA = () => {
             channel: "Kênh Tuyên Giáo",
             duration: "1 giờ 45 phút",
             url: "https://www.youtube.com/watch?v=4oqCmr3FtAI",
-            thumb: "bg-gradient-to-br from-blue-900 to-blue-800"
+            thumb: "bg-gradient-to-br from-amber-900 to-amber-800"
         }, {
             title: "Chuyên đề: Chăm lo đời sống Nhân dân theo tư tưởng Bác",
             channel: "GS.TS Hoàng Chí Bảo",
             duration: "1 giờ 30 phút",
             url: "https://www.youtube.com/watch?v=orzJX1ffkeg",
-            thumb: "bg-gradient-to-br from-blue-900 to-blue-800"
+            thumb: "bg-gradient-to-br from-amber-900 to-amber-800"
         }];
     return c.jsxs("div", {
         className: "min-h-screen relative font-sans",
         children: [c.jsxs("div", {
             className: "fixed inset-0 pointer-events-none overflow-hidden -z-10",
             children: [c.jsx("div", {
-                className: "absolute top-0 right-0 w-[600px] h-[600px] bg-blue-50/50 rounded-full blur-[120px]"
+                className: "absolute top-0 right-0 w-[600px] h-[600px] bg-amber-50/50 rounded-full blur-[120px]"
             }), c.jsx("div", {
                 className: "absolute bottom-0 left-0 w-[500px] h-[500px] bg-red-50/50 rounded-full blur-[100px]"
             })]
@@ -27885,7 +27907,7 @@ const EA = () => {
                 children: [c.jsxs("div", {
                     className: "flex items-center gap-3 mb-8",
                     children: [c.jsx("div", {
-                        className: "p-2 bg-blue-100 rounded-lg text-blue-600",
+                        className: "p-2 bg-amber-100 rounded-lg text-amber-700",
                         children: c.jsx(fx, {
                             size: 24
                         })
@@ -27986,9 +28008,9 @@ const EA = () => {
         title: "Chủ nghĩa xã hội, giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
         subtitle: "Chủ nghĩa xã hội",
         description: "Giai đoạn đầu tiên của hình thái kinh tế - xã hội cộng sản chủ nghĩa.",
-        color: "from-blue-500 to-cyan-400",
+        color: "from-amber-500 to-amber-300",
         gradient: "linear-gradient(135deg,#3b82f6,#22d3ee)",
-        shadow: "shadow-blue-500/20",
+        shadow: "shadow-amber-500/20",
         icon: Ih
     }, {
         id: 2,
@@ -28004,19 +28026,19 @@ const EA = () => {
         title: "Những đặc trưng cơ bản của CNXH",
         subtitle: "Đặc trưng CNXH",
         description: "Các đặc trưng về mục tiêu, kinh tế, chính trị–xã hội, văn hóa–tư tưởng và quan hệ dân tộc.",
-        color: "from-cyan-500 to-blue-400",
+        color: "from-amber-400 to-amber-600",
         gradient: "linear-gradient(135deg,#06b6d4,#60a5fa)",
         shadow: "shadow-orange-500/20",
         icon: qs
     }]
     , MA = () => c.jsxs("div", {
-        className: "min-h-screen relative bg-[#f6fbff] font-sans selection:bg-primary/30",
+                className: "min-h-screen relative bg-[var(--bg)] font-sans selection:bg-amber-100",
         children: [c.jsxs("div", {
             className: "fixed inset-0 pointer-events-none overflow-hidden",
             children: [c.jsx("div", {
-                        className: "absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-sky-200/30 rounded-full blur-[100px]"
+                        className: "absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-amber-200/30 rounded-full blur-[100px]"
             }), c.jsx("div", {
-                        className: "absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] bg-cyan-100/40 rounded-full blur-[100px]"
+                        className: "absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] bg-amber-100/40 rounded-full blur-[100px]"
             })]
         }), c.jsxs("main", {
             className: "relative container mx-auto px-4 pt-28 pb-20",
@@ -28029,7 +28051,7 @@ const EA = () => {
                     className: "text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight",
                     children: ["Nội dung", " ", c.jsx("span", {
                         style: {
-                            backgroundImage: "linear-gradient(90deg,#06b6d4,#2563eb)",
+                            backgroundImage: "linear-gradient(90deg,#f59e0b,#eab308)",
                             WebkitBackgroundClip: "text",
                             WebkitTextFillColor: "transparent"
                         },
@@ -28218,11 +28240,11 @@ const EA = () => {
         }
             , [e]),
             t ? c.jsxs("div", {
-                className: "min-h-screen bg-[#f6fbff] text-gray-800 font-sans",
+                className: "min-h-screen bg-[var(--bg)] text-gray-800 font-sans",
                 children: [c.jsx("div", {
                     className: "fixed inset-0 pointer-events-none overflow-hidden z-0",
                     children: c.jsx("div", {
-                        className: "absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-gradient-to-b from-sky-50/80 to-transparent"
+                        className: "absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-gradient-to-b from-amber-50/80 to-transparent"
                     })
                 }), c.jsxs("main", {
                     className: "relative z-10 container mx-auto px-4 pt-28 pb-20",
@@ -28342,7 +28364,7 @@ const EA = () => {
                     })]
                 })]
             }) : c.jsx("div", {
-                className: "min-h-screen flex items-center justify-center bg-[#f6fbff]",
+                className: "min-h-screen flex items-center justify-center bg-[var(--bg)]",
                 children: c.jsxs("div", {
                     className: "text-center space-y-4",
                     children: [c.jsx("h1", {
@@ -28357,7 +28379,7 @@ const EA = () => {
             })
     }
     , OA = () => c.jsx("div", {
-        className: "min-h-screen bg-[#f6fbff] font-sans",
+        className: "min-h-screen bg-[var(--bg)] font-sans",
         children: c.jsxs("main", {
             className: "container mx-auto px-4 pt-28 pb-20",
             children: [c.jsxs("div", {
@@ -28380,13 +28402,13 @@ const EA = () => {
             }), c.jsxs("div", {
                 className: "grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto",
                 children: [c.jsxs("div", {
-                    className: "md:col-span-1 md:row-span-2 relative group overflow-hidden rounded-[2.5rem] bg-white border border-gray-100 shadow-xl shadow-blue-900/5 hover:shadow-2xl transition-all duration-500 flex flex-col",
+                    className: "md:col-span-1 md:row-span-2 relative group overflow-hidden rounded-[2.5rem] bg-white border border-gray-100 shadow-xl shadow-amber-900/5 hover:shadow-2xl transition-all duration-500 flex flex-col",
                     children: [c.jsx("div", {
-                        className: "absolute inset-0 bg-gradient-to-b from-blue-50 to-transparent opacity-50"
+                        className: "absolute inset-0 bg-gradient-to-b from-amber-50 to-transparent opacity-50"
                     }), c.jsxs("div", {
                         className: "p-8 relative z-10 flex-1 flex flex-col",
                         children: [c.jsx("div", {
-                            className: "w-14 h-14 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform",
+                            className: "w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform",
                             children: c.jsx(px, {
                                 size: 28
                             })
@@ -28398,21 +28420,21 @@ const EA = () => {
                             children: [c.jsxs("li", {
                                 className: "flex gap-3 text-gray-600",
                                 children: [c.jsx(Fc, {
-                                    className: "w-5 h-5 text-blue-500 flex-shrink-0"
+                                    className: "w-5 h-5 text-amber-600 flex-shrink-0"
                                 }), c.jsx("span", {
                                     children: "Kiên định độc lập dân tộc & CNXH"
                                 })]
                             }), c.jsxs("li", {
                                 className: "flex gap-3 text-gray-600",
                                 children: [c.jsx(Fc, {
-                                    className: "w-5 h-5 text-blue-500 flex-shrink-0"
+                                    className: "w-5 h-5 text-amber-600 flex-shrink-0"
                                 }), c.jsx("span", {
                                     children: "Làm chủ đất nước, làm chủ xã hội"
                                 })]
                             }), c.jsxs("li", {
                                 className: "flex gap-3 text-gray-600",
                                 children: [c.jsx(Fc, {
-                                    className: "w-5 h-5 text-blue-500 flex-shrink-0"
+                                    className: "w-5 h-5 text-amber-600 flex-shrink-0"
                                 }), c.jsx("span", {
                                     children: 'Chống suy thoái, "tự diễn biến"'
                                 })]
@@ -28421,7 +28443,7 @@ const EA = () => {
                     }), c.jsxs("div", {
                         className: "relative h-48 w-full",
                         children: [c.jsx("div", {
-                            className: "absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent z-10"
+                            className: "absolute inset-0 bg-gradient-to-t from-amber-900/10 to-transparent z-10"
                         }), c.jsx("img", {
                             src: "https://ussh.vnu.edu.vn/uploads/ussh/news/2020_02/28768622aa63433d1a72-20200203003248360.jpg",
                             className: "w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700",
@@ -28468,7 +28490,7 @@ const EA = () => {
                             className: "w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700",
                             alt: "Đạo đức"
                         }), c.jsx("div", {
-                            className: "absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-900/60 to-blue-900/30 mix-blend-multiply"
+                            className: "absolute inset-0 bg-gradient-to-t from-amber-900/70 via-amber-800/40 to-amber-700/20 mix-blend-multiply"
                         }), c.jsx("div", {
                             className: "absolute inset-0 bg-gradient-to-b from-red-50/30 to-transparent"
                         })]
@@ -28688,7 +28710,7 @@ const IA = new nP
         children: c.jsxs(Mj, {
             children: [c.jsx(mT, {}), c.jsx(qT, {}), c.jsxs(tE, {
                 children: [c.jsx(aE, {}), c.jsxs("div", {
-                    className: "flex flex-col min-h-screen bg-[#f6fbff]",
+                    className: "flex flex-col min-h-screen bg-[var(--bg)]",
                     children: [c.jsx(cE, {}), c.jsx("main", {
                         className: "flex-1 relative pt-20",
                         children: c.jsxs(qP, {
