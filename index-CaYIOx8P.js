@@ -19045,7 +19045,7 @@ const lE = () => {
                     className: "mt-auto mb-8 text-center",
                     children: c.jsx("p", {
                         className: "text-sm text-gray-400",
-                        children: "© 2024 Tư tưởng Hồ Chí Minh"
+                        children: "©2025 Repotted"
                     })
                 })]
             })]
@@ -19090,7 +19090,7 @@ const lE = () => {
     }
     );
 Gr.displayName = "Button";
-const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-1755922991407-175592299220393783138.jpeg"
+const zm = "https://lyluanchinhtri-statics.melisoft.vn/2023/10/26/anh_1._cnxh_1698315961584.jpg"
     , dE = () => {
         const e = y1()
             , t = [{
@@ -19202,7 +19202,7 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                             children: "Tại sao cần nghiên cứu chủ đề này?"
                         }), c.jsx("p", {
                             className: "text-lg text-gray-600",
-                            children: "Tư tưởng Hồ Chí Minh về con người không chỉ là lý luận mà còn là kim chỉ nam cho việc rèn luyện và phát triển bản thân trong thời đại mới."
+                            children: "Nghiên cứu Chủ nghĩa Mác - Lênin (CN Mác - Lênin) là cần thiết vì nó cung cấp nền tảng lý luận, thế giới quan và phương pháp luận khoa học cho cách mạng và phát triển đất nước, đồng thời giúp định hình và phát triển nhân cách cá nhân."
                         })]
                     }), c.jsxs("div", {
                         className: "grid md:grid-cols-3 gap-8 lg:gap-12 animate-fade-in-up delay-100",
@@ -19218,7 +19218,7 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                                 children: "Định hướng Mục tiêu"
                             }), c.jsx("p", {
                                 className: "text-gray-600 leading-relaxed",
-                                children: "Hiểu rõ mục tiêu của việc xây dựng con người XHCN: phát triển toàn diện về Đức - Trí - Thể - Mỹ."
+                                children: "CN Mác - Lênin là thế giới quan và phương pháp luận khoa học để nhận thức và giải quyết các vấn đề thực tiễn của thế giới đương đại."
                             })]
                         }), c.jsxs("div", {
                             className: "bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-orange-100/50 hover:-translate-y-2 transition-all duration-300",
@@ -19229,10 +19229,10 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                                 })
                             }), c.jsx("h3", {
                                 className: "text-xl font-bold text-gray-900 mb-3",
-                                children: "Rèn luyện Bản lĩnh"
+                                children: "Điều kiện ra đời & Kinh tế"
                             }), c.jsx("p", {
                                 className: "text-gray-600 leading-relaxed",
-                                children: "Trang bị bản lĩnh chính trị vững vàng, kiên định mục tiêu độc lập dân tộc gắn liền với chủ nghĩa xã hội."
+                                children: "Lĩnh hội tri thức lý luận gốc, rèn luyện phương pháp tư duy khoa học và nâng cao năng lực tư duy lý luận."
                             })]
                         }), c.jsxs("div", {
                             className: "bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-orange-100/50 hover:-translate-y-2 transition-all duration-300",
@@ -19243,10 +19243,10 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                                 })
                             }), c.jsx("h3", {
                                 className: "text-xl font-bold text-gray-900 mb-3",
-                                children: "Hoàn thiện Nhân cách"
+                                children: "Chính trị & Văn hóa"
                             }), c.jsx("p", {
                                 className: "text-gray-600 leading-relaxed",
-                                children: 'Tu dưỡng đạo đức cách mạng "Cần, kiệm, liêm, chính", sống có trách nhiệm với cộng đồng và xã hội.'
+                                children: 'Tri thức CN Mác - Lênin khi được lĩnh hội và trở thành niềm tin sẽ là cơ sở cho hành động của mỗi người, giúp hình thành niềm tin đối với chế độ xã hội chủ nghĩa.'
                             })]
                         })]
                     })]
@@ -19374,39 +19374,18 @@ const fE = m.forwardRef(({ className: e, ...t }, n) => c.jsx("div", {
 fE.displayName = "CardFooter";
 const Kc = [{
     id: 1,
-    title: "Tư tưởng Hồ Chí Minh về con người xã hội chủ nghĩa",
-    youtubeId: "lOas6NdUywU",
-    duration: "15:20",
-    author: "Báo Lao Động",
-    desc: "Phân tích sâu sắc về nhân tố con người trong công cuộc xây dựng CNXH."
+    title: "Chủ nghĩa xã hội không bao giờ lỗi thời",
+    youtubeId: "6ItwIIWZmDs",
+    duration: "5:03",
+    author: "VTV4",
+    desc: "CNXH không lỗi thời mà đang phát triển dưới nhiều hình thái"
 }, {
     id: 2,
-    title: "Lý tưởng sống và vai trò thanh niên thời đại mới",
-    youtubeId: "qG5hCyGhAno",
-    duration: "12:45",
-    author: "Truyền hình Thông tấn",
-    desc: "Đối thoại cởi mở về trách nhiệm và khát vọng của thế hệ trẻ."
-}, {
-    id: 3,
-    title: "Đạo đức cách mạng theo tư tưởng Hồ Chí Minh",
-    youtubeId: "W7dM1aDRiIU",
-    duration: "28:10",
-    author: "Đảng với Dân",
-    desc: "Những chuẩn mực đạo đức cần có của người cán bộ, đảng viên."
-}, {
-    id: 4,
-    title: "Vai trò của con người trong xây dựng CNXH",
-    youtubeId: "YvRBGm1h4HY",
-    duration: "10:05",
-    author: "Báo Nhân Dân",
-    desc: "Con người vừa là mục tiêu, vừa là động lực của sự phát triển."
-}, {
-    id: 5,
-    title: "Học tập và rèn luyện theo lời Bác Hồ",
-    youtubeId: "-wMDf2Myojk",
-    duration: "08:30",
-    author: "Học tập & Làm theo",
-    desc: "Các chuyên đề thực tiễn áp dụng vào đời sống hàng ngày."
+    title: "Chủ nghĩa xã hội là gì",
+    youtubeId: "e02nXIcfNyA",
+    duration: "6:03",
+    author: "LỚP PHÓ HỌC TẬP Official",
+    desc: "CNXH là hệ tư tưởng đề xuất sở hữu công về tư liệu sản xuất, nhằm xóa bỏ bất công và hướng tới Chủ nghĩa Cộng sản."
 }]
     , pE = () => {
         const [e, t] = m.useState(Kc[0]);
@@ -19428,19 +19407,12 @@ const Kc = [{
                                 })]
                             }), c.jsx("h1", {
                                 className: "text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-50 tracking-tight",
-                                children: "Tư tưởng Hồ Chí Minh"
+                                children: "Chủ nghĩa xã hội"
                             }), c.jsx("p", {
                                 className: "text-slate-500 dark:text-slate-400 mt-2 max-w-2xl",
                                 children: "Tuyển tập video bài giảng chuyên sâu, giúp người học nắm vững nền tảng lý luận và thực tiễn."
                             })]
                         }), c.jsx("div", {
-                            className: "flex gap-2",
-                            children: c.jsxs("button", {
-                                className: "flex items-center gap-2 px-4 py-2 bg-white border shadow-sm rounded-lg text-sm font-medium hover:bg-slate-50 transition",
-                                children: [c.jsx(Nk, {
-                                    className: "w-4 h-4"
-                                }), " Chia sẻ"]
-                            })
                         })]
                     }), c.jsxs("div", {
                         className: "grid lg:grid-cols-3 gap-8",
@@ -28205,7 +28177,7 @@ const EA = () => {
                 "Học thuyết hình thái KT–XH khẳng định: Sự thay thế TBCN bằng CSCN là quá trình lịch sử tự nhiên, phù hợp quy luật khách quan.",
                 "CNXH (giai đoạn đầu của CSCN) xuất hiện khi những tiền đề vật chất – tinh thần chín muồi trong lòng xã hội TBCN."
             ],
-            image: "https://cdnphoto.dantri.com.vn/KkKcQEa_SoT0w5P1sH7K8i3I6DM=/2025/07/01/cong-nghiep-hoa-2-1720000000.jpg"
+            image: "/hinh_thai.png"
         }, {
             title: "Hai giai đoạn của hình thái CSCN",
             content: [
@@ -28330,7 +28302,7 @@ const EA = () => {
                                     }), c.jsx("img", {
                                         src: n.image,
                                         alt: n.title,
-                                        className: "w-full h-[350px] lg:h-[450px] object-cover"
+                                        className: "w-full h-auto max-h-[450px] object-contain bg-white"
                                     })]
                                 }), c.jsx("div", {
                                     className: `absolute -bottom-10 -right-10 w-40 h-40 bg-orange-200/50 rounded-full blur-3xl -z-10 ${r % 2 !== 0 ? "left-auto -right-10" : "-left-10 right-auto"}`
@@ -28356,7 +28328,9 @@ const EA = () => {
                                             className: "mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 flex-shrink-0 shadow-[0_0_10px_rgba(249,115,22,0.5)]"
                                         }), c.jsx("p", {
                                             className: "text-lg text-gray-600 leading-relaxed font-light",
-                                            children: s
+                                            children: s === "Kết luận: CNXH chính là giai đoạn thấp của hình thái KT–XH CSCN, là bước quá độ tất yếu trên con đường phát triển lịch sử." ? c.jsx("strong", {
+                                                children: s
+                                            }) : s
                                         })]
                                     }, i))
                                 })]
