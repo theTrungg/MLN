@@ -18892,7 +18892,7 @@ const lE = () => {
                                 children: ["Nhóm 3 ", c.jsx("span", {
                                     className: "mx-2 text-white/40",
                                     children: "|"
-                                }), " HCM202"]
+                                }), " MLN131"]
                             })]
                         }), c.jsxs("div", {
                             className: "flex items-center gap-3",
@@ -18962,29 +18962,9 @@ const lE = () => {
         label: "Video",
         icon: co
     }, {
-        to: "/on-tap",
-        label: "Ôn tập",
-        icon: cx
-    }, {
         to: "/gallery",
         label: "Triển lãm",
         icon: _h
-    }, {
-        to: "/tro-ly",
-        label: "Trợ lý AI",
-        icon: hx
-    }, {
-        to: "/mini-game",
-        label: "Game",
-        icon: lo
-    }, {
-        to: "/live",
-        label: "Live Game",
-        icon: gk
-    }, {
-        to: "/tai-lieu",
-        label: "Tài liệu",
-        icon: od
     }];
     return c.jsxs(c.Fragment, {
         children: [c.jsx("nav", {
@@ -19005,7 +18985,7 @@ const lE = () => {
                             className: "flex flex-col",
                             children: [c.jsx("span", {
                                 className: "font-bold text-lg leading-tight text-gray-900 group-hover:text-red-600 transition-colors",
-                                children: "HCM202"
+                                children: "MLN131"
                             }), c.jsx("span", {
                                 className: "text-[10px] font-semibold text-gray-500 uppercase tracking-widest",
                                 children: "Con người XHCN"
@@ -19114,35 +19094,20 @@ const zm = "/assets/ho-chi-minh-sReGNZEF.png"
   , dE = () => {
     const e = y1()
       , t = [{
-        label: "Bài Học",
+        label: "Khái niệm",
         icon: lr,
-        path: "/bai-hoc",
+        path: "/khai-niem",
         variant: "hero"
     }, {
-        label: "Video",
+        label: "Điều kiện ra đời",
         icon: co,
-        path: "/video",
+        path: "/dieu-kien",
         variant: "hero"
     }, {
-        label: "Ôn tập",
-        icon: cx,
-        path: "/on-tap",
-        variant: "hero"
-    }, {
-        label: "Mini Game",
-        icon: lo,
-        path: "/mini-game",
-        variant: "hero-accent"
-    }, {
-        label: "Tấm Gương Hồ Chí Minh",
+        label: "Những đặc trưng cơ bản",
         icon: _h,
-        path: "/gallery",
+        path: "/dac-trung",
         variant: "hero"
-    }, {
-        label: "Trợ lý tư tưởng HCM",
-        icon: hx,
-        path: "/tro-ly",
-        variant: "hero-secondary"
     }];
     return c.jsxs("div", {
         className: "min-h-screen bg-[#fdfbf6] font-sans",
@@ -19171,7 +19136,7 @@ const zm = "/assets/ho-chi-minh-sReGNZEF.png"
                                 className: "w-4 h-4 text-primary"
                             }), c.jsx("span", {
                                 className: "text-primary font-bold text-sm tracking-wide uppercase",
-                                children: "HCM202 - Chủ đề 3"
+                                children: "MLN131, Nhóm 1"
                             })]
                         }), c.jsxs("h1", {
                             className: "text-5xl md:text-7xl font-extrabold tracking-tight text-foreground leading-tight drop-shadow-sm",
@@ -19181,7 +19146,7 @@ const zm = "/assets/ho-chi-minh-sReGNZEF.png"
                             })]
                         }), c.jsx("p", {
                             className: "text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-xl font-medium",
-                            children: "Khám phá tư tưởng Hồ Chí Minh về con người xã hội chủ nghĩa - và hành trình nhìn lại chính mình."
+                            children: "Chủ nghĩa xã hội (CNXH) là giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa — phong trào giải phóng nhân dân lao động, trào lưu tư tưởng và khoa học về sứ mệnh lịch sử của giai cấp công nhân."
                         }), c.jsx("div", {
                             className: "grid sm:grid-cols-2 gap-4 pt-6",
                             children: t.map(n => {
@@ -28014,8 +27979,8 @@ const EA = () => {
                     children: [c.jsx(yk, {
                         className: "w-4 h-4 text-primary"
                     }), c.jsx("span", {
-                        className: "text-sm font-bold text-gray-700 uppercase tracking-wide",
-                        children: "Thư viện số HCM202"
+                        className: "text-sm font-bold text-gra  y-700 uppercase tracking-wide",
+                        children: "Thư viện số MLN131"
                     })]
                 }), c.jsxs("h1", {
                     className: "text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight",
@@ -28147,7 +28112,7 @@ const EA = () => {
                         }), c.jsxs("p", {
                             className: "text-gray-400 leading-relaxed mb-6 max-w-3xl",
                             children: ["Website này là sản phẩm bài tập môn học", " ", c.jsx("strong", {
-                                children: "HCM202 (Tư tưởng Hồ Chí Minh)"
+                                children: "MLN131 (Tư tưởng Hồ Chí Minh)"
                             }), " tại Đại học FPT. Tất cả nội dung, hình ảnh, và video được sưu tầm từ các nguồn chính thống (Đảng Cộng sản Việt Nam, VTV, Tạp chí Cộng sản...) nhằm mục đích giáo dục và phi lợi nhuận."]
                         })]
                     })]
@@ -28890,7 +28855,16 @@ const IA = new nP
                             element: c.jsx(RA, {})
                         })]
                     })
-                }), c.jsx(lE, {})]
+                }), c.jsx("footer", {
+                    className: "bg-white/80 border-t border-white/20 py-6",
+                    children: c.jsx("div", {
+                        className: "container mx-auto px-4 text-center",
+                        children: c.jsx("p", {
+                            className: "text-sm text-muted-foreground",
+                            children: "© 2025 MLN131, Nhóm 1 — Mọi quyền được bảo lưu."
+                        })
+                    })
+                })]
             })]
         })]
     })
