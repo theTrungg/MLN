@@ -18988,7 +18988,7 @@ const lE = () => {
                                     children: "MLN131"
                                 }), c.jsx("span", {
                                     className: "text-[10px] font-semibold text-gray-500 uppercase tracking-widest",
-                                    children: "Con người XHCN"
+                                    children: "Chủ nghĩa xã hội"
                                 })]
                             })]
                         }), c.jsx("div", {
@@ -19096,17 +19096,17 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
             , t = [{
                 label: "Khái niệm",
                 icon: lr,
-                path: "/khai-niem",
+                path: "/bai-hoc/1",
                 variant: "hero"
             }, {
                 label: "Điều kiện ra đời",
                 icon: co,
-                path: "/dieu-kien",
+                path: "/bai-hoc/2",
                 variant: "hero"
             }, {
                 label: "Những đặc trưng cơ bản",
                 icon: _h,
-                path: "/dac-trung",
+                path: "/bai-hoc/3",
                 variant: "hero"
             }];
         return c.jsxs("div", {
@@ -19142,7 +19142,7 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                                 className: "text-5xl md:text-7xl font-extrabold tracking-tight text-foreground leading-tight drop-shadow-sm",
                                 children: ["Xây dựng", c.jsx("span", {
                                     className: "text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-600 block mt-2 italic pl-2",
-                                    children: "Con Người XHCN"
+                                    children: "Chủ Nghĩa Xã Hội"
                                 })]
                             }), c.jsx("p", {
                                 className: "text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-xl font-medium",
@@ -19325,34 +19325,6 @@ const zm = "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2025/8/23/photo-175
                                 className: "relative z-10 mt-6 flex justify-end",
                                 children: c.jsx("span", {
                                     className: "w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-blue-600 group-hover:text-white transition-all",
-                                    children: c.jsx(Qn, {
-                                        size: 20
-                                    })
-                                })
-                            })]
-                        }), c.jsxs(Qe, {
-                            to: "/mini-game",
-                            className: "group relative overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 p-8 flex flex-col justify-between min-h-[280px]",
-                            children: [c.jsx("div", {
-                                className: "absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-purple-100 to-pink-100 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"
-                            }), c.jsxs("div", {
-                                className: "relative z-10",
-                                children: [c.jsx("div", {
-                                    className: "w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-6",
-                                    children: c.jsx(lo, {
-                                        size: 24
-                                    })
-                                }), c.jsx("h3", {
-                                    className: "text-2xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors",
-                                    children: "Học mà Chơi"
-                                }), c.jsx("p", {
-                                    className: "text-gray-600",
-                                    children: "Kiểm tra kiến thức nhẹ nhàng qua các mini-game tương tác thú vị."
-                                })]
-                            }), c.jsx("div", {
-                                className: "relative z-10 mt-6 flex justify-end",
-                                children: c.jsx("span", {
-                                    className: "w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:bg-purple-600 group-hover:text-white transition-all",
                                     children: c.jsx(Qn, {
                                         size: 20
                                     })
@@ -19577,67 +19549,15 @@ const Kc = [{
             })
         })
     }
-    , is = [{
-        id: 1,
-        question: "Theo tư tưởng Hồ Chí Minh, phẩm chất đạo đức nào là nền tảng, là gốc của người cách mạng?",
-        options: ["Yêu thương con người", "Trung với nước, hiếu với dân", "Cần, Kiệm, Liêm, Chính", "Tinh thần quốc tế trong sáng"],
-        correctAnswer: 1,
-        explanation: "'Trung với nước, hiếu với dân' là phẩm chất quan trọng nhất, bao trùm nhất, chi phối các phẩm chất khác."
-    }, {
-        id: 2,
-        question: "Bác Hồ ví 'Người có đức mà không có tài' giống như điều gì?",
-        options: ["Người làm việc gì cũng khó", "Người nguy hiểm", "Người vô dụng", "Ông bụt ngồi trong chùa"],
-        correctAnswer: 3,
-        explanation: "Bác ví: 'Có đức mà không có tài như ông bụt ngồi trong chùa, không hại ai nhưng cũng không lợi gì cho ai'."
-    }, {
-        id: 3,
-        question: "Trong mối quan hệ giữa 'Hồng' (Đạo đức) và 'Chuyên' (Tài năng), Bác Hồ nhấn mạnh điều gì?",
-        options: ["Chuyên quan trọng hơn Hồng", "Hồng quan trọng hơn Chuyên", "Phải vừa hồng vừa chuyên", "Hồng là gốc, Chuyên là ngọn"],
-        correctAnswer: 2,
-        explanation: "Thanh niên phải phấn đấu rèn luyện để 'vừa hồng, vừa chuyên', trong đó đạo đức cách mạng là gốc, tài năng là quan trọng."
-    }, {
-        id: 4,
-        question: "Theo Bác, kẻ thù hung ác nhất của đạo đức cách mạng, là 'giặc nội xâm' nguy hiểm nhất là gì?",
-        options: ["Chủ nghĩa thực dân", "Chủ nghĩa cá nhân", "Thói lười biếng", "Bệnh quan liêu"],
-        correctAnswer: 1,
-        explanation: "Chủ nghĩa cá nhân là kẻ thù hung ác nhất vì nó đẻ ra nhiều thói hư tật xấu, kìm hãm sự phát triển."
-    }, {
-        id: 5,
-        question: "Hoàn thành câu nói nổi tiếng: 'Vì lợi ích mười năm thì phải trồng cây, vì lợi ích trăm năm thì phải...'",
-        options: ["Trồng người", "Xây dựng đất nước", "Phát triển kinh tế", "Giáo dục"],
-        correctAnswer: 0,
-        explanation: "Câu nói khẳng định vai trò chiến lược của con người: Muốn xây dựng CNXH, trước hết cần có những con người XHCN."
-    }, {
-        id: 6,
-        question: "Đức tính 'Liêm' trong 'Cần, Kiệm, Liêm, Chính' có nghĩa là gì?",
-        options: ["Siêng năng, chăm chỉ", "Tiết kiệm, không hoang phí", "Trong sạch, không tham lam", "Thẳng thắn, đứng đắn"],
-        correctAnswer: 2,
-        explanation: "Liêm là trong sạch, không tham lam địa vị, tiền tài, sung sướng. Không tơ hào của công."
-    }, {
-        id: 7,
-        question: "Theo Bác, muốn 'trồng người' (xây dựng con người mới) thì biện pháp nào là quan trọng nhất?",
-        options: ["Giáo dục và đào tạo", "Kỷ luật nghiêm minh", "Khen thưởng vật chất", "Tuyên truyền miệng"],
-        correctAnswer: 0,
-        explanation: "Giáo dục là biện pháp quan trọng nhất. Bác nói: 'Hiền dữ phải đâu là tính sẵn, phần nhiều do giáo dục mà nên'."
-    }, {
-        id: 8,
-        question: "Biểu hiện cụ thể của 'Cần' (Lao động cần cù) theo tư tưởng Hồ Chí Minh là gì?",
-        options: ["Làm việc thật nhiều giờ trong ngày", "Làm việc siêng năng, có kế hoạch, sáng tạo, năng suất cao", "Làm cho xong việc được giao", "Chỉ làm những việc mình thích"],
-        correctAnswer: 1,
-        explanation: "Cần không chỉ là siêng năng tay chân mà còn phải có kế hoạch, sáng tạo để đạt năng suất cao nhất."
-    }, {
-        id: 9,
-        question: "Phong trào thi đua nào của thanh niên thời kháng chiến chống Mỹ thể hiện rõ nhất tinh thần 'Đâu cần thanh niên có'?",
-        options: ["Ba sẵn sàng", "Đồng khởi", "Mùa hè xanh", "Thanh niên lập nghiệp"],
-        correctAnswer: 0,
-        explanation: "Phong trào 'Ba sẵn sàng' (Sẵn sàng chiến đấu, Sẵn sàng gia nhập lực lượng, Sẵn sàng đi bất cứ nơi đâu) là biểu tượng rực rỡ nhất."
-    }, {
-        id: 10,
-        question: "Câu nói 'Không có gì quý hơn độc lập, tự do' được Bác Hồ kêu gọi vào thời điểm nào?",
-        options: ["Cách mạng tháng 8 (1945)", "Chiến thắng Điện Biên Phủ (1954)", "Kháng chiến chống Mỹ cứu nước (1966)", "Di chúc (1969)"],
-        correctAnswer: 2,
-        explanation: "Câu nói được trích trong Lời kêu gọi đồng bào và chiến sĩ cả nước ngày 17/7/1966."
-    }];
+    , is = [
+    //     {
+    //     id: 1,
+    //     question: "Theo tư tưởng Hồ Chí Minh, phẩm chất đạo đức nào là nền tảng, là gốc của người cách mạng?",
+    //     options: ["Yêu thương con người", "Trung với nước, hiếu với dân", "Cần, Kiệm, Liêm, Chính", "Tinh thần quốc tế trong sáng"],
+    //     correctAnswer: 1,
+    //     explanation: "'Trung với nước, hiếu với dân' là phẩm chất quan trọng nhất, bao trùm nhất, chi phối các phẩm chất khác."
+    // }
+];
 var ef = "Progress"
     , tf = 100
     , [mE, KA] = si(ef)
@@ -28163,9 +28083,9 @@ const EA = () => {
         icon: lr
     }, {
         id: 3,
-        title: "Rèn luyện đạo đức & phẩm chất",
-        subtitle: "Hoàn thiện nhân cách",
-        description: "Thực hành đạo đức cách mạng, nâng cao năng lực trí tuệ và phát huy dân chủ trong thời đại mới.",
+        title: "Những đặc trưng cơ bản của CNXH",
+        subtitle: "Đặc trưng CNXH",
+        description: "Các đặc trưng về mục tiêu, kinh tế, chính trị–xã hội, văn hóa–tư tưởng và quan hệ dân tộc.",
         color: "from-orange-500 to-amber-400",
         shadow: "shadow-orange-500/20",
         icon: qs
@@ -28323,23 +28243,42 @@ const EA = () => {
         }]
     }, {
         id: 3,
-        title: "Rèn luyện đạo đức và phẩm chất con người XHCN",
+        title: "Những đặc trưng cơ bản của CNXH",
         blocks: [{
-            title: "Đạo đức cách mạng",
-            content: ["Lợi ích của dân là tối thượng.", '"Việc gì có lợi cho dân thì hết sức làm…"', "Rèn luyện cần, kiệm, liêm, chính; chí công vô tư."],
-            image: "https://image.viettimes.vn/w800/Uploaded/2025/bpcpcwvo/2024_07_20/452099633-1025761722785095-865785060880384424-n-1369.jpg"
+            title: "Đặc trưng về mục tiêu tổng quát",
+            content: [
+                "Là tạo điều kiện để con người phát triển.",
+                "CNXH là xã hội giải phóng giai cấp, giải phóng dân tộc, giải phóng xã hội, giải phóng con người, tạo điều kiện để con người phát triển toàn diện.",
+                "CNXH là chế độ xã hội do nhân dân lao động làm chủ."
+            ],
+            image: "https://cdnphoto.dantri.com.vn/dan-sinh-1744792073.jpg"
         }, {
-            title: "Nâng cao trình độ & năng lực",
-            content: ["Con người XHCN phải có trình độ văn hóa, khoa học – kỹ thuật.", "Học tập suốt đời.", "Làm chủ công nghệ trong thời đại 4.0."],
-            image: "https://vietq.vn/Images/ngocxen/2025/11/18/thi-tay-nghe-the-gioi-ok.jpg"
+            title: "Đặc trưng về kinh tế",
+            content: [
+                "CNXH có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu.",
+                "Mục tiêu cao nhất của CNXH là giải phóng con người trên cơ sở điều kiện kinh tế – xã hội phát triển, và là chế độ xã hội có nền kinh tế phát triển cao, với lực lượng sản xuất hiện đại.",
+                "CNXH thực hiện nguyên tắc phân phối: làm theo năng lực, hưởng theo nhu cầu (ở giai đoạn cao).",
+                "Trong giai đoạn đầu, theo V.I. Lênin, việc xóa bỏ hoàn toàn chế độ tư hữu ngay lập tức là không thể, cần xây dựng nền kinh tế mới từng bước."
+            ],
+            image: "https://bcp.cdnchinhphu.vn/zoom/600_315/334894974524682240/2024/2/20/kttt-1708420500569.jpg"
         }, {
-            title: "Phát huy vai trò chủ thể dân chủ",
-            content: ["Tôn trọng, bảo vệ quyền con người.", "Thực hành dân chủ trực tiếp & đại diện.", "Tham gia vào hệ thống chính trị."],
-            image: "https://cdn.nhandan.vn/images/d233c8299c7755bbf317d96e7a85fcf744f00574f1e76dfe1b78b9611d7f7927a922b1b8dbf016e7a1503be9f6d70311e3f0d8851bd64e94f130a81f09b01393/IMG_310-1621763285156.jpg"
+            title: "Đặc trưng về chính trị – xã hội",
+            content: [
+                "CNXH là một chế độ dân chủ, với nhà nước xã hội chủ nghĩa cùng hệ thống pháp luật và tổ chức quản lý xã hội ngày càng hiệu quả.",
+                "Dân chủ xã hội chủ nghĩa là chế độ dân chủ của đại đa số cư dân, của những người lao động; nhân dân ngày càng tham gia nhiều vào công việc nhà nước.",
+                "Nhà nước kiểu mới mang bản chất giai cấp công nhân, đại biểu cho lợi ích, quyền lực và ý chí của nhân dân lao động.",
+                "Giai cấp công nhân lãnh đạo nhân dân lao động thông qua Đảng Cộng sản.",
+                "Mục tiêu cao nhất đạt được là xóa bỏ sự phân chia giai cấp, biến tất cả thành viên trong xã hội thành người lao động, tiêu diệt cơ sở của mọi tình trạng bóc lột."
+            ],
+            image: "https://dangcongsan.vn/upload/2006988/fck/phuongdt/doan-ket-4725.png"
         }, {
-            title: "Hoàn thiện nhân cách",
-            content: ["Tự giác rèn luyện.", "Kết hợp đạo đức, tri thức, lối sống văn minh."],
-            image: "https://congdankhuyenhoc.qltns.mediacdn.vn/449484899827462144/2022/11/18/img0010-2-1668756156364433168339.jpeg"
+            title: "Đặc trưng về văn hóa – tư tưởng và quan hệ dân tộc",
+            content: [
+                "CNXH có nền văn hóa phát triển cao, kế thừa và phát huy những giá trị của văn hóa dân tộc và tinh hoa văn hóa nhân loại; văn hóa là nền tảng tinh thần của xã hội, mục tiêu và động lực của phát triển.",
+                "CNXH đảm bảo bình đẳng, đoàn kết giữa các dân tộc và có quan hệ hữu nghị, hợp tác với nhân dân các nước trên thế giới.",
+                "Nguyên tắc giải quyết vấn đề dân tộc: xóa bỏ tình trạng bóc lột người thì tình trạng bóc lột dân tộc khác cũng sẽ bị xóa bỏ."
+            ],
+            image: "https://cdn.nhandan.vn/images/culture-hoa-binh-1744792073.jpg"
         }]
     }]
     , DA = () => {
@@ -28464,23 +28403,6 @@ const EA = () => {
                                     })]
                                 })]
                             }) : c.jsxs(Qe, {
-                                to: "/ket-luan",
-                                className: "group flex flex-row-reverse items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-red-600 to-orange-600 text-white shadow-xl shadow-orange-500/30 hover:shadow-2xl hover:scale-105 transition-all",
-                                children: [c.jsx("div", {
-                                    className: "w-10 h-10 rounded-full bg-white/20 flex items-center justify-center animate-pulse",
-                                    children: c.jsx(Qn, {
-                                        className: "w-5 h-5"
-                                    })
-                                }), c.jsxs("div", {
-                                    className: "text-right",
-                                    children: [c.jsx("p", {
-                                        className: "text-xs text-white/80 font-semibold uppercase",
-                                        children: "Hoàn thành"
-                                    }), c.jsx("p", {
-                                        className: "font-bold text-lg",
-                                        children: "Xem Tổng Kết"
-                                    })]
-                                })]
                             })]
                         })
                     })]
