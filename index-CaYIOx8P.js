@@ -19090,7 +19090,7 @@ const lE = () => {
     }
     );
 Gr.displayName = "Button";
-const zm = "https://lyluanchinhtri-statics.melisoft.vn/2023/10/26/anh_1._cnxh_1698315961584.jpg"
+const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BAS1152-TX?unique=e7516b3"
     , dE = () => {
         const e = y1()
             , t = [{
@@ -28162,14 +28162,14 @@ const EA = () => {
         id: 1,
         title: "Chủ nghĩa xã hội, giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
         blocks: [{
-            title: "Các góc độ tiếp cận",
+            title: "Khái niệm",
             content: [
                 "Là phong trào thực tiễn: đấu tranh của nhân dân lao động chống áp bức, bóc lột và các giai cấp thống trị.",
                 "Là trào lưu tư tưởng – lý luận: phản ánh lý tưởng giải phóng nhân dân lao động khỏi áp bức, bóc lột, bất công.",
                 "Là một khoa học (CNXH khoa học): nghiên cứu sứ mệnh lịch sử của giai cấp công nhân và quy luật tiến lên CNXH.",
                 "Là một chế độ xã hội tốt đẹp: giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa."
             ],
-            image: "https://mia.vn/media/uploads/blog-du-lich/le-dieu-binh-304-1-1744792073.jpg"
+            image: "https://lyluanchinhtri-statics.melisoft.vn/2023/10/26/anh_1._cnxh_1698315961584.jpg"
         }, {
             title: "Các hình thái kinh tế – xã hội",
             content: [
@@ -28185,7 +28185,7 @@ const EA = () => {
                 "Giai đoạn cao: Chủ nghĩa cộng sản phát triển đầy đủ; lực lượng sản xuất đạt trình độ cao, công bằng – tự do – phát triển toàn diện con người trở thành hiện thực.",
                 "Kết luận: CNXH chính là giai đoạn thấp của hình thái KT–XH CSCN, là bước quá độ tất yếu trên con đường phát triển lịch sử."
             ],
-            image: "https://cdn.nhandan.vn/images/d8baf6c4e.../phat-trien-kinh-te-xa-hoi.jpg"
+            image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lenin_and_soldiers_of_Red_Army_on_the_way_to_Poland_by_Isaak_Brodsky.jpg"
         }]
     }, {
         id: 2,
