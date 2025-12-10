@@ -28147,9 +28147,9 @@ const EA = () => {
 }
   , AA = [{
     id: 1,
-    title: "Nền tảng chính trị – tư tưởng",
+    title: "Chủ nghĩa xã hội, giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
     subtitle: "Con người XHCN",
-    description: "Kiên định mục tiêu độc lập dân tộc & CNXH. Giữ vững quyền làm chủ và chống suy thoái đạo đức.",
+    description: "Giai đoạn đầu tiên của hình thái kinh tế - xã hội cộng sản chủ nghĩa.",
     color: "from-blue-500 to-cyan-400",
     shadow: "shadow-blue-500/20",
     icon: Ih
@@ -28245,7 +28245,7 @@ const EA = () => {
                                         })]
                                     }), c.jsxs("div", {
                                         className: "mt-6 flex items-center text-sm font-semibold text-primary/80 group-hover:text-primary transition-colors",
-                                        children: ["Bắt đầu học", " ", c.jsx(Qn, {
+                                        children: ["Xem ngay", " ", c.jsx(Qn, {
                                             className: "ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform"
                                         })]
                                     })]
@@ -28268,19 +28268,32 @@ const EA = () => {
 })
   , LA = [{
     id: 1,
-    title: "Xây dựng nền tảng chính trị – tư tưởng của con người XHCN",
+    title: "Chủ nghĩa xã hội, giai đoạn đầu của hình thái kinh tế - xã hội cộng sản chủ nghĩa",
     blocks: [{
-        title: "Kiên định mục tiêu cách mạng",
-        content: ["Nhận thức rõ rằng tiến lên CNXH và CNCS là quá trình hợp quy luật.", 'Kiên định "nắm vững ngọn cờ độc lập dân tộc và chủ nghĩa xã hội".', "Bảo đảm vai trò lãnh đạo tuyệt đối của Đảng Cộng sản Việt Nam."],
+        title: "Các góc độ tiếp cận",
+        content: [
+            "Là phong trào thực tiễn: đấu tranh của nhân dân lao động chống áp bức, bóc lột và các giai cấp thống trị.",
+            "Là trào lưu tư tưởng – lý luận: phản ánh lý tưởng giải phóng nhân dân lao động khỏi áp bức, bóc lột, bất công.",
+            "Là một khoa học (CNXH khoa học): nghiên cứu sứ mệnh lịch sử của giai cấp công nhân và quy luật tiến lên CNXH.",
+            "Là một chế độ xã hội tốt đẹp: giai đoạn đầu của hình thái kinh tế – xã hội cộng sản chủ nghĩa."
+        ],
         image: "https://mia.vn/media/uploads/blog-du-lich/le-dieu-binh-304-1-1744792073.jpg"
     }, {
-        title: "Thực hiện quyền làm chủ",
-        content: ["Nhân dân là chủ và làm chủ.", "Phát huy dân chủ XHCN đi đôi với tăng cường pháp chế.", "Công dân có trách nhiệm tham gia quản lý nhà nước và xã hội."],
-        image: "https://hdll.vn/FileUpload/Images/becaebcabc.jpg"
+        title: "Các hình thái kinh tế – xã hội",
+        content: [
+            "Lịch sử loài người phát triển qua 5 hình thái KT–XH: Cộng xã nguyên thủy (CXNT), Chiếm hữu nô lệ (CHNL), Phong kiến (PK), Tư bản chủ nghĩa (TBCN), Cộng sản chủ nghĩa (CSCN).",
+            "Học thuyết hình thái KT–XH khẳng định: Sự thay thế TBCN bằng CSCN là quá trình lịch sử tự nhiên, phù hợp quy luật khách quan.",
+            "CNXH (giai đoạn đầu của CSCN) xuất hiện khi những tiền đề vật chất – tinh thần chín muồi trong lòng xã hội TBCN."
+        ],
+        image: "https://cdnphoto.dantri.com.vn/KkKcQEa_SoT0w5P1sH7K8i3I6DM=/2025/07/01/cong-nghiep-hoa-2-1720000000.jpg"
     }, {
-        title: "Chống suy thoái tư tưởng – đạo đức",
-        content: ["Xây dựng Đảng là nhiệm vụ then chốt.", "Đấu tranh chống suy thoái chính trị, đạo đức, lối sống.", '"Tự diễn biến", "tự chuyển hóa" cần được ngăn chặn.'],
-        image: "https://media.anhp.vn/files/kimanh/bvtt4.png"
+        title: "Hai giai đoạn của hình thái CSCN",
+        content: [
+            "Giai đoạn thấp: Xã hội vừa thoát thai từ TBCN, còn mang nhiều dấu vết cũ về kinh tế, đạo đức, tinh thần; thiết lập những nền tảng mới (quan hệ sản xuất, thiết chế xã hội, giá trị).",
+            "Giai đoạn cao: Chủ nghĩa cộng sản phát triển đầy đủ; lực lượng sản xuất đạt trình độ cao, công bằng – tự do – phát triển toàn diện con người trở thành hiện thực.",
+            "Kết luận: CNXH chính là giai đoạn thấp của hình thái KT–XH CSCN, là bước quá độ tất yếu trên con đường phát triển lịch sử."
+        ],
+        image: "https://cdn.nhandan.vn/images/d8baf6c4e.../phat-trien-kinh-te-xa-hoi.jpg"
     }]
 }, {
     id: 2,
