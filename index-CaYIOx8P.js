@@ -26051,32 +26051,8 @@ Chủ tịch Hồ Chí Minh (1890–1969) vận dụng sáng tạo chủ nghĩa 
                                 children: "Chủ nghĩa Marx–Lenin"
                             })]
                         }), c.jsx("p", {
-                            className: "text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed",
-                            children: "Hình tượng, tư liệu và tư tưởng cốt lõi của chủ nghĩa Marx–Lenin cùng vận dụng sáng tạo ở Việt Nam."
-                        }), c.jsxs("div", {
-                            className: "flex flex-col md:flex-row gap-4 justify-center items-center mt-8",
-                            children: [c.jsxs("div", {
-                                className: "relative w-full md:w-80 group",
-                                children: [c.jsx(Tk, {
-                                    className: "absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 group-focus-within:text-amber-600 transition-colors"
-                                }), c.jsx("input", {
-                                    type: "text",
-                                    placeholder: "Tìm kiếm nhân vật...",
-                                    className: "w-full pl-10 pr-4 py-3 rounded-2xl border border-slate-200 bg-white/80 backdrop-blur focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-all shadow-sm",
-                                    value: s,
-                                    onChange: h => i(h.target.value)
-                                })]
-                            }), c.jsx("div", {
-                                className: "flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto px-1 custom-scrollbar",
-                                children: rA.map(h => c.jsx("button", {
-                                    onClick: () => r(h),
-                                    className: `
-                      px-4 py-2.5 rounded-xl text-sm font-bold whitespace-nowrap transition-all
-                      ${n === h ? "bg-slate-900 text-white shadow-lg shadow-slate-900/20 scale-105" : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200 hover:border-slate-300"}
-                    `,
-                                    children: h
-                                }, h))
-                            })]
+                            className: "text-lg md:text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed",
+                            children: "Chủ nghĩa Mác-Lênin là một hệ thống tư tưởng chính trị sâu sắc, kết hợp các nguyên lý cơ bản của Chủ nghĩa Mác với những đóng góp lý thuyết của Lenin. Đây là nền tảng tư tưởng của sự phát triển cách mạng xã hội chủ nghĩa ở các nước trên thế giới. Ở Việt Nam, chủ nghĩa Mác-Lênin được vận dụng sáng tạo để giải quyết các vấn đề đặc thù trong lịch sử, văn hóa và phát triển xã hội của dân tộc. Triển lãm này tôn vinh các nhân vật tiêu biểu và tư tưởng cách mạng đã góp phần xây dựng nên các giá trị to lớn của Việt Nam hiện đại."
                         })]
                     }), c.jsx(Me.div, {
                         layout: !0,
