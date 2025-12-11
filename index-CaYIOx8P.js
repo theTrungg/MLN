@@ -19276,7 +19276,7 @@ const zm = "https://qldt.pttc1.edu.vn/web/image/slide.channel/6049/image_1920/BA
                             })]
                         })]
                     }), c.jsxs("div", {
-                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in-up delay-100",
+                        className: "grid md:grid-cols-2 gap-6 justify-items-center max-w-3xl mx-auto animate-fade-in-up delay-100",
                         children: [c.jsxs(Qe, {
                             to: "/bai-hoc",
                             className: "group relative overflow-hidden rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 p-8 flex flex-col justify-between min-h-[280px]",
