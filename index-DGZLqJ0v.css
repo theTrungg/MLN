@@ -411,6 +411,14 @@ a:active,
 a:focus {
     text-decoration: none;
 }
+
+/* Force-remove underlines and bottom borders on links (higher specificity and !important)
+   This covers cases where underline is added via text-decoration or border-bottom */
+a, a * {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
     padding-left: 2rem
 }
 
