@@ -419,8 +419,6 @@ a, a * {
     border-bottom: none !important;
     box-shadow: none !important;
 }
-    padding-left: 2rem
-}
 
 @media (min-width: 1400px) {
     .container {

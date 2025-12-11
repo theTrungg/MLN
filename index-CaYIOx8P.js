@@ -18963,6 +18963,10 @@ const lE = () => {
             to: "/gallery",
             label: "Triển lãm",
             icon: _h
+        }, {
+            to: "/ai-usage",
+            label: "AI Usage",
+            icon: cx
         }];
         return c.jsxs(c.Fragment, {
             children: [c.jsx("nav", {
@@ -28748,6 +28752,9 @@ const IA = new nP
                                 path: "/live",
                                 element: c.jsx(_A, {})
                             }), c.jsx(at, {
+                                path: "/ai-usage",
+                                element: c.jsx(aI, {})
+                            }), c.jsx(at, {
                                 path: "*",
                                 element: c.jsx(RA, {})
                             })]
@@ -28766,4 +28773,74 @@ const IA = new nP
             })]
         })
     });
+const aI = () => c.jsxs("div", {
+    className: "min-h-screen bg-gradient-to-b from-slate-50 to-white pt-24 pb-12",
+    children: [c.jsxs("div", {
+        className: "container mx-auto px-4 max-w-4xl",
+        children: [c.jsxs("div", {
+            className: "text-center mb-12",
+            children: [c.jsx("div", {
+                className: "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-4",
+                children: ["🤖 AI Usage"]
+            }), c.jsx("h1", {
+                className: "text-5xl font-bold text-slate-900 mb-4 leading-tight",
+                children: "Vai trò của AI trong Dự án"
+            }), c.jsx("p", {
+                className: "text-xl text-slate-600 leading-relaxed",
+                children: "Khám phá cách công nghệ AI hỗ trợ xây dựng và nâng cao chất lượng của dự án học tập này."
+            })]
+        }), c.jsxs("div", {
+            className: "space-y-8",
+            children: [c.jsxs("div", {
+                className: "bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow",
+                children: [c.jsx("h2", {
+                    className: "text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3",
+                    children: ["🎨 Thiết kế & Trang trí Giao diện"]
+                }), c.jsx("p", {
+                    className: "text-slate-700 text-lg leading-relaxed",
+                    children: "AI hỗ trợ trong việc thiết kế bố cục, lựa chọn màu sắc hài hòa và tạo ra các yếu tố trang trí trực quan. Từ đó, trang web trở nên thân thiện hơn với người dùng, dễ dàng theo dõi nội dung và có cảm giác chuyên nghiệp."
+                })]
+            }), c.jsxs("div", {
+                className: "bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow",
+                children: [c.jsx("h2", {
+                    className: "text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3",
+                    children: ["✨ Tinh chỉnh và Tối ưu CSS"]
+                }), c.jsx("p", {
+                    className: "text-slate-700 text-lg leading-relaxed",
+                    children: "AI đóng vai trò quan trọng trong việc tinh chỉnh các quy tắc CSS, đảm bảo tính nhất quán trong kiểu dáng, cải thiện responsive design, và tối ưu hiệu suất tải trang. Mỗi chi tiết được điều chỉnh để tạo ra trải nghiệm người dùng mượt mà nhất."
+                })]
+            }), c.jsxs("div", {
+                className: "bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow",
+                children: [c.jsx("h2", {
+                    className: "text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3",
+                    children: ["✂️ Tinh giản & Tối ưu Nội dung"]
+                }), c.jsx("p", {
+                    className: "text-slate-700 text-lg leading-relaxed",
+                    children: "AI giúp xác định nội dung thừa, rút gọn văn bản dài và sắp xếp thông tin theo cấp độ quan trọng. Kết quả là người dùng có thể nắm bắt kiến thức một cách nhanh chóng và hiệu quả, tránh quá tải thông tin."
+                })]
+            }), c.jsxs("div", {
+                className: "bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow",
+                children: [c.jsx("h2", {
+                    className: "text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3",
+                    children: ["🔄 Cải thiện Trải nghiệm Tổng thể"]
+                }), c.jsx("p", {
+                    className: "text-slate-700 text-lg leading-relaxed",
+                    children: "Thông qua phân tích dữ liệu và nhận xét, AI giúp tối ưu quy trình phát triển, từ giao diện người dùng đến cấu trúc nội dung. Điều này đảm bảo rằng mỗi tương tác với trang web đều mang lại giá trị tối đa cho người học."
+                })]
+            })]
+        }), c.jsx("div", {
+            className: "mt-12 p-8 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-200",
+            children: c.jsxs("div", {
+                className: "text-center",
+                children: [c.jsx("p", {
+                    className: "text-slate-700 mb-4 leading-relaxed",
+                    children: "AI là một công cụ hỗ trợ mạnh mẽ giúp nâng cao chất lượng dự án, tiết kiệm thời gian và tập trung vào những yêu cầu quan trọng nhất. Tuy nhiên, quyết định cuối cùng và sáng tạo vẫn luôn là trách nhiệm của con người."
+                }), c.jsx("p", {
+                    className: "text-sm text-slate-600 font-medium",
+                    children: "\"AI is a tool, not a replacement for human creativity and judgment.\""
+                })]
+            })
+        })]
+    })]
+});
 Rv(document.getElementById("root")).render(c.jsx(FA, {}));
