@@ -292,6 +292,11 @@ button,[role=button] {
     cursor: default
 }
 
+/* Global link style: remove underline across all links */
+a, a:hover, a:focus, a:active, a:visited {
+    text-decoration: none !important;
+}
+
 img,svg,video,canvas,audio,iframe,embed,object {
     display: block;
     vertical-align: middle
